@@ -1,0 +1,15 @@
+{
+  "name": "TNWZ",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "mysql2": "^1.5.1",
+    "sequelize": "^4.31.2"
+  },
+  "scripts": {
+    "fight": "anyproxy -i -s --rule rank.js",
+    "fetch": "node question-fetcher"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "database": {
+    "dialect": "mysql",
+    "database": "tnwz",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "root",
+    "logging": false,
+    "timezone": "+08:00",
+    "pool": {
+      "min": 0,
+      "max": 20
+    }
+  }
+}
